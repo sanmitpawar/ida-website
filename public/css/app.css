@@ -1,0 +1,99 @@
+a{
+    color: #df4759;
+}
+
+.flickity-button-white .flickity-prev-next-button{
+    color:#d8151c;
+}
+
+.navbar-brand-img{
+    max-height: 4rem;
+}
+.navbar{
+    padding: .3rem;
+}
+
+.home-slider .w-100{
+    border-radius: 15px;
+}
+.home-slider img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 15px;
+}
+
+.industry-slider img{
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    /* object-position: bottom; */
+    border-radius: 15px;
+}
+
+.flickity-prev-next-button{
+    background-color:#d8151c;
+}
+
+.why-indiana-section .card{
+    height: 15rem;
+}
+
+.services-section .card{
+    height: 22rem;
+}
+
+.products-section .card{
+    height: 12rem;
+}
+
+
+.mep-services-section .card{
+    height: auto;
+}
+
+.form-control{
+    border: 1px solid #d4d4d4;
+}
+
+.footer-logo{
+    max-width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .ps-10{
+        padding-left: inherit !important;
+    }
+
+    .pe-10{
+        padding-right: inherit !important;
+    }
+
+    .why-indiana-section .card{
+        height: auto;
+    }
+
+    .services-section .card{
+        height: auto;
+    }
+    .commitment-quality-section .card{
+        height: auto;
+    }
+    .about-indiana .img-fluid,.about-indiana .img-thumbnail{
+        max-width: 60%;
+        margin:  0 auto;
+    }
+    .map-card .card-body{
+        padding: 5px;
+    }
+    .contact-hero-welcome{
+        margin-top: 3.5rem;
+    }
+    .footer-first-wrapper{
+        text-align: center;
+    }
+    .footer-logo{
+        max-width: 35% !important;
+    }
+  }

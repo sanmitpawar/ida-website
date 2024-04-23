@@ -1,0 +1,55 @@
+@extends('layouts.app')
+@section('content')
+<!-- CONTENT -->
+<section style="padding-top: 10rem">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md">
+                <!-- Heading -->
+                <h1 class="display-4 mb-2">
+                    Terms Of Usage Policy
+                </h1>
+            </div>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+            <div class="col-12">
+                <!-- Divider -->
+                <hr class="my-6 my-md-2">
+            </div>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="" style="text-align: justify">
+                    <p>Welcome to <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> provides services (the "Services") pursuant to the terms and conditions set forth below. By clicking on the [Submit] button, you are agreeing to use the Services in a manner consistent with the terms and conditions of this Agreement and with all applicable laws and regulations.</p>
+                    <p>1. Modification of Terms of Service:</p>
+                    <p><a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> may change the terms and conditions of the Service upon which <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> will notify you of the changes.</p>
+                    <p>2. Registration Data.</p>
+                    <p>In consideration for the Service, you agree to provide <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> current, complete, and accurate registration information (the "Registration Data") as prompted to do by the Service and to maintain and update this information as required to keep it current, complete and accurate. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> may itself use your individual Registration Data to provide targeting of advertisements and other Service offers.</p>
+                    <p>3. Personal Use & Security.</p>
+                    <p>You acknowledge your right to use the Services is personal to you. You agree not to resell or make any commercial use of the Service without the express consent of <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a>. You are entirely responsible for not maintaining the confidentiality of your password and account. You shall be fully liable for all use of your account, including any unauthorized use of your account by any third-party.</p>
+                    <p>4. Indemnification.</p>
+                    <p>You agree to defend, indemnify and hold harmless <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> and its employees, directors, officers, agents and their successors and assigns from and against any and all liabilities, damages, losses, costs and expenses, including attorney's fees, caused by or arising out of claims based upon the use of your account, including any claim of libel, defamation, violation of rights of privacy or publicity, loss of service by other subscribers and infringement of intellectual property or other rights.</p>
+                    <p>5. Terms.</p>
+                    <p>This Agreement shall continue in full force and effect for so long as you are using the Services. Either you or <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> may terminate the service at any time, with or without cause. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> reserves the right, in its sole discretion, to terminate your access to the services and the related services or any portion thereof at any time, without notice. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> may also terminate or suspend your access to the services for inactivity, which is defined as failing to log into a particular service for an extended period of time, as determined by sunilsohoni.com. The amount of time that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> currently considers as an "extended" period of time is 6 (six) months. Upon termination of the service, your right to use the Services immediately ceases.</p>
+                    <p>6. Disclaimer of Warranties.</p>
+                    <p>You expressly agree the use of the service is at your sole risk. The service is provided on an "as is" and "as available" basis. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> expressly disclams all warranties of any kind, whether express or implied, including, but not limited to the implied warranties of merchantability, fitness for a particular purpose and non-infringement . <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> makes no warranty the services will meet your requirements, or the services will be uninterrupted, timely, secure, or error free. Nor does <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> make any warranty as to the results that may be obtained through the service or that defects in the software will be corrected. You understand and agree any material and/ or data downloaded or otherwise obtained through the use of the service is done at your own discretion and risk and you will be solely responsible for any damage to your computer systems or loss of data that results from the download of such material and/ or data. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> makes no warranty regarding any goods or services purchased or obtained through the service or any transactions entered into through the service. No advice or information, whether oral or written, which you obtain from <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> or through the service shall create any warranty not expressly made herein. You acknowledge that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> site may contain links to other web sites operated by third parties ("linked sites"). You acknowledge that, when you click on a link to visit a linked site, a frame may appear that contains the <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> logo, advertisements and/ or other content selected by <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a>. You acknowledge that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> and its sponsors neither endorse nor are affiliated with the linked site or any link contained in a link site, or any changes or updates to such sites. You also acknowledge that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> is providing these links to you only as a convenience. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> does not endorse in anyway any advertisers/ contents of advertisers on its webpages. Please therefore verify the veracity of all information on your own before undertaking reliance and actioning thereupon. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> shall not be responsible nor liable for any consequential damages arising on account of your relying on the contents of the advertisement.</p>
+                    <p>7. Limitation of Liability.</p>
+                    <p><a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> shall not be liable for any indirect, incidental, special or consequential damages or for interrupted communications, lost data or lost profits arising out of or in connection with this agreement, even if <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> has been advised of the possibility of damages. Some jurisdictions do not allow the limitation of liability so some of the above limitations may not apply to you. You agree that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> may establish limits concerning use of the Services offered on <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a>. You agree that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> has no responsibility or liability for the deletion, corruption or failure to store any messages or other content maintained or transmitted by the Services. You acknowledge that <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> reserves the right to log off accounts that are inactive for an extended period of time. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a> makes no warranty that any services will be uninterrupted, timely secure or error-free.</p>
+                    <p>8. Proprietary Rights to Content.</p>
+                    <p>You acknowledge that content, including but not limited to text, software, music, sound, photographs, video, graphics or other material contained in either sponsor advertisements or E-mail distributed, commercially produced information presented to you by <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a>, is protected by copyrights, trademarks, service marks, patents or other proprietary rights and laws. You are permitted to use this content as authorised by the Service or the Advertiser.</p>
+                    <p>9. Miscellaneous.</p>
+                    <p>This agreement will be governed by and construed in accordance with the laws of India without giving effect to principles of conflict of laws. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced. <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a>'s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches. This Agreement sets forth the entire understanding and agreement between you and <a href="https://www.indautomation.in" target="_blank">www.indautomation.in</a></p>
+                    <p>10. Copyright Notice</p>
+                    <p>All rights reserved. Copyright in all material on this website vests in Indiana Drives and Engineering Pvt. Ltd. and is protected under copyright.</p>
+                    <p>11. Copyright</p>
+                    <p>All content included on this site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the sole property of Indiana Drives and Engineering Pvt. Ltd. and protected copyright.</p>
+                 </div>
+            </div>
+        </div>
+        <!-- / .row -->
+    </div>
+    <!-- / .container -->
+</section>
+@endsection

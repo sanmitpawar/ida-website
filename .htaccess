@@ -1,0 +1,72 @@
+<IfModule mod_rewrite.c>
+
+    <IfModule mod_negotiation.c>
+
+        Options -MultiViews
+
+    </IfModule>
+
+
+
+    RewriteEngine On
+
+
+
+    RewriteCond %{REQUEST_FILENAME} -d [OR]
+
+    RewriteCond %{REQUEST_FILENAME} -f
+
+    RewriteRule ^ ^$1 [N]
+
+
+
+    RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
+
+    RewriteRule ^(.*)$ public/$1
+
+
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^ server.php
+
+
+
+    #force to https
+
+    RewriteEngine On
+
+    RewriteCond %{HTTPS} !=on
+
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+    Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+
+    #force to www
+
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} !=""
+
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+
+    RewriteCond %{HTTPS}s ^on(s)|
+
+    RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # Add Security Headers
+    <IfModule mod_headers.c>
+    # Protect against XSS attacks
+    Header set X-XSS-Protection "1; mode=block"
+    </IfModule>
+
+
+    Header always set Strict-Transport-Security "max-age=31536000"
+
+
+
+</IfModule>
