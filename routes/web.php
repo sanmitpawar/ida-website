@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -41,4 +43,4 @@ Route::get('policy/terms', function () {
     return view('policy.terms');
 });
 
-Route::post('mail/contact','HomeController@store');
+Route::post('mail/contact',[AppController::class,'MailContact']);

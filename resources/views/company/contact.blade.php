@@ -109,7 +109,8 @@
                 <!-- Form -->
                 <div class="card">
                     <div class="card-body">
-                        <form method="post" action="{{ url('contact-us/mail') }}">
+                        <form method="post" action="{{ url('mail/contact') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group mb-5">
@@ -118,7 +119,7 @@
                                         Full name
                                         </label>
                                         <!-- Input -->
-                                        <input class="form-control" id="contactName" type="text" placeholder="Full name">
+                                        <input class="form-control" id="contactName" name="name" type="text" placeholder="Full name">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
@@ -128,7 +129,7 @@
                                         Email
                                         </label>
                                         <!-- Input -->
-                                        <input class="form-control" id="contactEmail" type="email" placeholder="hello@domain.com">
+                                        <input class="form-control" id="contactEmail" name="email" type="email" placeholder="hello@domain.com">
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +142,7 @@
                                         What can we help you with?
                                         </label>
                                         <!-- Input -->
-                                        <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+                                        <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="Tell us what we can help you with!"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +150,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-auto">
                                     <!-- Submit -->
-                                    <button type="submit" class="btn btn-danger lift">
+                                    <button type="submit" name="submit" class="btn btn-danger lift">
                                     Send message
                                     </button>
                                 </div>
