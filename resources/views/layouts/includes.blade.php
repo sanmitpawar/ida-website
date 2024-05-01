@@ -16,3 +16,9 @@
 <link rel="stylesheet" href="{{ asset("css/theme.bundle.css") }}">
 <link rel="stylesheet" href="{{ asset("css/app.css") }}">
 <!-- Title -->
+
+{!! htmlScriptTagJsApi([
+    'action' => 'homepage',
+    'callback_then' => 'callbackThen',
+    'callback_catch' => 'callbackCatch'
+]) !!}

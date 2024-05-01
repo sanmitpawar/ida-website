@@ -7,19 +7,15 @@
             <div class="flickity-button-white flickity-button-inset" data-flickity='{"imagesLoaded": true, "wrapAround": true,"freeScroll" : true, "pageDots": false, "autoPlay" : true}'>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="{{ asset('public/img/company/slider/s1.png') }}" class="img-fluid w-100" alt="...">
+                    <img src="https://www.keb-automation.com/fileadmin_keb/_processed_/5/a/csm_keb-control-automation-c6-fokus_acf0899aed.png" class="img-fluid w-100" alt="...">
                 </div>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="{{ asset('public/img/company/slider/s3.png') }}" class="img-fluid w-100" alt="...">
+                    <img src="https://www.keb-automation.com/fileadmin_keb/_processed_/0/1/csm_keb-control-automation-c6-safety_69cab6f7c3.png" alt="...">
                 </div>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="https://images.unsplash.com/photo-1513295202663-54cd69dd2b43?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid w-100" alt="...">
-                </div>
-                <div class="w-100">
-                    <!-- Image -->
-                    <img src="https://images.unsplash.com/photo-1694523882662-2531dcdb2548?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid w-100" alt="...">
+                    <img src="https://www.drivesapplication.com/img/bg-header-3.jpg" class="img-fluid w-100" alt="...">
                 </div>
             </div>
         </div>
