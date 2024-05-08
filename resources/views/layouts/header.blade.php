@@ -30,7 +30,7 @@
                 @if(URL::current() == url('/'))
                 <li class="nav-item">
                     <a class="nav-link" id="navbarAccount" href="#services" data-scroll='{"offset": 0}'>
-                    services
+                    Services
                     </a>
                 </li>
                 @else
