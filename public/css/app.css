@@ -65,7 +65,21 @@ a{
     max-width: 40%;
 }
 
+.services-owl-carousel {
+    padding-top: 5rem;
+}
+.services-owl-carousel .item img{
+    padding: .5rem;
+    border: 1px solid rgb(189, 188, 188);
+    width: 150px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: contain; /* Preserve aspect ratio */
+}
+
 @media only screen and (max-width: 600px) {
+    .home-slider img{
+        height: 550px;
+    }
     .ps-10{
         padding-left: inherit !important;
     }

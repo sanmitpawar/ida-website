@@ -1,3 +1,4 @@
+@section('title', 'Indiana Drives & Automation | Disclaimer')
 @extends('layouts.app')
 @section('content')
 <!-- CONTENT -->

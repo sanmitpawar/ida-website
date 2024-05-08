@@ -1,3 +1,4 @@
+@section('title', 'Indiana Drives & Automation | Contact Us')
 @extends('layouts.app')
 @section('content')
 <!-- WELCOME -->

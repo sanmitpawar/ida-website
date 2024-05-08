@@ -1,5 +1,8 @@
+@section('title', 'Indiana Drives & Automation | Home')
 @extends('layouts.app')
 @section('content')
+<style>
+</style>
 <!-- SLIDER -->
 <section class="home-slider container-fluid mt-11">
     <div class="row pe-10 ps-10">
@@ -203,6 +206,93 @@
                     <p class="text-gray-700 mb-5">
                         Maximizing operational efficiency through expert project management, PLC, HMI programming, and automation, coupled with reliable repair services and proactive maintenance plans for drive systems and HVAC units.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pe-10 ps-10 mt-8 justify-content-center">
+        <div class="col-12 col-md-12">
+            <!-- Card -->
+            <div class="card card-border border-danger shadow-lg mb-6 mb-md-8 lift lift-lg">
+                <div class="card-body text-center">
+                    <!-- Heading -->
+                    <h4 class="fw-bold">
+                        We are dealing in Services and Repairs of AC and Servo Drives and Servo Motors of following make
+                    </h4>
+                    <!-- Text -->
+                    <div class="services-owl-carousel">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/yaskawa.png") }}" alt="Yaskawa">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/rexroth.png") }}" alt="Rexroth">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/rockwell.png") }}" alt="Rockwell">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/schneider.png") }}" alt="Schneider">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/siemens.png") }}" alt="Siemens">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/abb.png") }}" alt="ABB">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/arcuchi.png") }}" alt="Arcuchi">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/baumuller.png") }}" alt="Baumuller">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/Bharat-Bijlee.png") }}" alt="Bharat Bijlee">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/cg.jpeg") }}" alt="CG">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/danfoss.png") }}" alt="Danfoss">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/delta.png") }}" alt="Delta">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/fuji.png") }}" alt="Fuji">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/golden-age-servo-motor.jpeg") }}" alt="Golden Age Servo Motor">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/hpb-motion.png") }}" alt="HPB Motion">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/inovance.png") }}" alt="Inovance">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/invt.png") }}" alt="INVT">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/KEB.png") }}" alt="KEB">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/lenze.png") }}" alt="Lenze">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/mitsubishi.png") }}" alt="Mitsubishi">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/omron.png") }}" alt="Omron">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/phase-motion.png") }}" alt="Phase Motion">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/realland-servo.png") }}" alt="Realland Servo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -545,4 +635,28 @@
     </div>
     <!-- / .container -->
 </section>
+@endsection
+@section('scripts')
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay : true,
+    nav:true,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+</script>
+
 @endsection
