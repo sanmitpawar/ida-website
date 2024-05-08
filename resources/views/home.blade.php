@@ -642,7 +642,7 @@
     $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    autoplay : true,
+    autoplay : false,
     nav:true,
     dots: false,
     responsive:{

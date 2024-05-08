@@ -238,7 +238,7 @@
             </h2>
         </div>
     </div>
-    <div class="row mt-10 ps-10 pe-10">
+    <div class="row mt-10 ps-10 pe-10 ida-products-cards">
         <div class="col-12 col-md-12 mb-6" data-aos="fade-up" data-aos-delay="50">
             <!-- Card -->
             <div class="card shadow-lift mb-6 mb-md-0 lift lift-lg">
@@ -279,8 +279,8 @@
                                 <li>Scope Function to assist in commissioning, troubleshooting, and diagnosis</li>
                                 <li>CE Certified and Compliance with EU RoHS Standards</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/bl50n-vfd-drive-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual 1</a>
-                            <a href="{{ asset('public/files/products/bl52-vfd-drive-catalouge-page-by-page-041219.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual 2</a>
+                            <a href="{{ asset('public/files/products/bl50n-vfd-drive-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual 1</a>
+                            <a href="{{ asset('public/files/products/bl52-vfd-drive-catalouge-page-by-page-041219.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual 2</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                                 <li>Elevators (including PMSM motors)</li>
                                 <li>Fan/pumps/compressors (with pressure feedback control)</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/F5-KEB-BBL-catalog-2015.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/F5-KEB-BBL-catalog-2015.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>
@@ -429,8 +429,8 @@
                                 <li>Spindles and Woodworking Machines</li>
                                 <li>Plastic Machinery</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual F6</a>
-                            <a href="{{ asset('public/files/products/combivert-s6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual S6</a>
+                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual F6</a>
+                            <a href="{{ asset('public/files/products/combivert-s6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual S6</a>
                         </div>
                     </div>
                 </div>
@@ -487,7 +487,7 @@
                                 <li>Electronics Line Shaft for printing machines</li>
                                 <li>Machine Tools (SPM’s)</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/multi-axis-drive-h6.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/multi-axis-drive-h6.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>
@@ -549,7 +549,7 @@
                                 <li>Hiperface</li>
                             </ul>
                             <p>Preassembled cables, suitable for stationary or flexible applications, make installation easy and minimize wiring faults.</p>
-                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual F6</a>
+                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual F6</a>
                         </div>
                     </div>
                 </div>
@@ -588,7 +588,7 @@
                                 <li>Integrated safety features – e.g., switchover to encoderless operation in case of encoder loss.</li>
                                 <li>Features as required – Braking resistor, fieldbus communications, 24VDC supply, battery monitoring, etc.</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/p6_yaw_cms_solution_2012_09_051.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/p6_yaw_cms_solution_2012_09_051.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>
@@ -621,7 +621,7 @@
                                 <li>Simple connection for remote I/O components</li>
                                 <li>Also available in Box IPC’s and Panel IPC’s for high integration of control and visualization</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/KEB-C6 Automation-Catalog-2021.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/KEB-C6 Automation-Catalog-2021.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>
@@ -651,7 +651,7 @@
                                 <li>Power Ratings: 13kW to 58kW</li>
                                 <li>Maximum Speed: 3200rpm</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/synchrotorq-synchronous-ac-servo-motors-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/synchrotorq-synchronous-ac-servo-motors-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>
@@ -706,7 +706,7 @@
                                 <li>Sugar Centrifuge Machine: All capacities of batch-type Sugar centrifuge machine control with trip-free operation and fastest commissioning time...</li>
                                 <li>Start/Stop Shear and Stand drive for Bar Mill: Bar Mill Start/Stop flying shear control up to bar speed of 18 MPS and offering very good parking position accuracy. This drive is also used for DC continuous stands, Pinch Roll, Tail breaking rolls...</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/drives-wire-drawing-machine-flyer-design-page-by-page241018.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/drives-wire-drawing-machine-flyer-design-page-by-page241018.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
                         </div>
                     </div>
                 </div>

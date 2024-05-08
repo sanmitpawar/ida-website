@@ -74,11 +74,22 @@ a{
     width: 150px; /* Adjust width as needed */
     height: 100px; /* Adjust height as needed */
     object-fit: contain; /* Preserve aspect ratio */
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
+    .services-owl-carousel{
+        padding-top: 2rem;
+    }
     .home-slider img{
-        height: 550px;
+        height: 200px;
+    }
+    .why-indiana-section{
+        padding-top: 3rem!important;
+    }
+    .ida-products-cards a{
+        font-size: 15px;
+        display: block;
     }
     .ps-10{
         padding-left: inherit !important;
