@@ -114,9 +114,9 @@
                     </div>
                 @endif
                 <!-- Form -->
-                <div class="card">
+                <div class="card" id="contact-card">
                     <div class="card-body">
-                        <form method="post" action="{{ url('mail/contact') }}">
+                        <form method="post" action="{{ url('contact/store') }}">
                             @csrf
                             <div class="row">
                                 <div class="col-12 col-md-6">
