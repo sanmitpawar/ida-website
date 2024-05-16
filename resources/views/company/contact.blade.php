@@ -102,7 +102,7 @@
             <div class="col-md-6 mb-3">
                 <div class="card map-card">
                     <div class="card-body">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2274985961876!2d72.87571887474746!3d19.053732652672117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c39c9527f627%3A0x22586c58d1b8d37a!2sIndiana%20Drives%20%26%20Engineering%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1701444891944!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.463502756977!2d73.02836237497654!3d19.04334828215452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c36430d24a1f%3A0x3de4010d474d7cc0!2sIndiana%20Drives%20And%20Automation!5e0!3m2!1sen!2sin!4v1715839633541!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@
             <h2 class="fw-bold">
                 Our Products
             </h2>
-            <p>
+            <p class="text-center">
                 At Indiana Drives & Automation., we are offer following products.
             </p>
         </div>
@@ -48,11 +48,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     General Purpose AC Drives
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     BL5X AC VARIABLE FREQUENCY DRIVES
                                 </p>
                             </div>
@@ -71,11 +71,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make F5 Application/ Servo Drives
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     F5-Multi Drives (Rating upto 900kw)
                                 </p>
                             </div>
@@ -94,11 +94,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Advance Smart Servo Drives S6/F6
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     KEB COMBIVERT S6 / F6 Intelligent Servo Drives
                                 </p>
                             </div>
@@ -117,11 +117,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Modular Drives for Multi Axis Servo Control:H6 (MultiAxis Drives)
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     The modular drive technology: KEB COMBIVERT H6
                                 </p>
                             </div>
@@ -140,11 +140,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB F6K Series Servo Drive
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     KEB COMBIVERT F6-K - Power Range
                                 </p>
                             </div>
@@ -163,11 +163,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB P6 Pitch Control Drive
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     Pitch and Yaw Drives for Wind Turbine Generator
                                 </p>
                             </div>
@@ -186,11 +186,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Smart C6
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     Programmable Multi Axis Controller
                                 </p>
                             </div>
@@ -209,11 +209,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     Synchronous AC Servo Motors
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     For cyclic applications demanding accurate positioning
                                 </p>
                             </div>
@@ -279,8 +279,8 @@
                                 <li>Scope Function to assist in commissioning, troubleshooting, and diagnosis</li>
                                 <li>CE Certified and Compliance with EU RoHS Standards</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/bl50n-vfd-drive-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual 1</a>
-                            <a href="{{ asset('public/files/products/bl52-vfd-drive-catalouge-page-by-page-041219.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual 2</a>
+                            <a href="{{ asset('public/files/products/bl50n-vfd-drive-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog 1</a>
+                            <a href="{{ asset('public/files/products/bl52-vfd-drive-catalouge-page-by-page-041219.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog 2</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                                 <li>Elevators (including PMSM motors)</li>
                                 <li>Fan/pumps/compressors (with pressure feedback control)</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/F5-KEB-BBL-catalog-2015.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/F5-KEB-BBL-catalog-2015.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>
@@ -429,8 +429,8 @@
                                 <li>Spindles and Woodworking Machines</li>
                                 <li>Plastic Machinery</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual F6</a>
-                            <a href="{{ asset('public/files/products/combivert-s6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual S6</a>
+                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog F6</a>
+                            <a href="{{ asset('public/files/products/combivert-s6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog S6</a>
                         </div>
                     </div>
                 </div>
@@ -487,7 +487,7 @@
                                 <li>Electronics Line Shaft for printing machines</li>
                                 <li>Machine Tools (SPM’s)</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/multi-axis-drive-h6.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/multi-axis-drive-h6.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>
@@ -549,7 +549,7 @@
                                 <li>Hiperface</li>
                             </ul>
                             <p>Preassembled cables, suitable for stationary or flexible applications, make installation easy and minimize wiring faults.</p>
-                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual F6</a>
+                            <a href="{{ asset('public/files/products/combivert-f6-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog F6</a>
                         </div>
                     </div>
                 </div>
@@ -588,7 +588,7 @@
                                 <li>Integrated safety features – e.g., switchover to encoderless operation in case of encoder loss.</li>
                                 <li>Features as required – Braking resistor, fieldbus communications, 24VDC supply, battery monitoring, etc.</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/p6_yaw_cms_solution_2012_09_051.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/p6_yaw_cms_solution_2012_09_051.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>
@@ -621,7 +621,7 @@
                                 <li>Simple connection for remote I/O components</li>
                                 <li>Also available in Box IPC’s and Panel IPC’s for high integration of control and visualization</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/KEB-C6 Automation-Catalog-2021.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/KEB-C6 Automation-Catalog-2021.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>
@@ -651,7 +651,7 @@
                                 <li>Power Ratings: 13kW to 58kW</li>
                                 <li>Maximum Speed: 3200rpm</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/synchrotorq-synchronous-ac-servo-motors-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/synchrotorq-synchronous-ac-servo-motors-catalogue.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>
@@ -706,7 +706,7 @@
                                 <li>Sugar Centrifuge Machine: All capacities of batch-type Sugar centrifuge machine control with trip-free operation and fastest commissioning time...</li>
                                 <li>Start/Stop Shear and Stand drive for Bar Mill: Bar Mill Start/Stop flying shear control up to bar speed of 18 MPS and offering very good parking position accuracy. This drive is also used for DC continuous stands, Pinch Roll, Tail breaking rolls...</li>
                             </ul>
-                            <a href="{{ asset('public/files/products/drives-wire-drawing-machine-flyer-design-page-by-page241018.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Manual</a>
+                            <a href="{{ asset('public/files/products/drives-wire-drawing-machine-flyer-design-page-by-page241018.pdf') }}" target="_blank" class="btn btn-sm btn-outline-danger mb-3">Download Product Catlog</a>
                         </div>
                     </div>
                 </div>

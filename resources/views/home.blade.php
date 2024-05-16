@@ -10,15 +10,35 @@
             <div class="flickity-button-white flickity-button-inset" data-flickity='{"imagesLoaded": true, "wrapAround": true,"freeScroll" : true, "pageDots": false, "autoPlay" : true}'>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="https://www.keb-automation.com/fileadmin_keb/_processed_/5/a/csm_keb-control-automation-c6-fokus_acf0899aed.png" class="img-fluid w-100" alt="...">
+                    <img src="{{ asset('public/img/company/slider/csm_keb-control-automation-c6-fokus_acf0899aed.png') }}" class="img-fluid w-100" alt="...">
                 </div>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="https://www.keb-automation.com/fileadmin_keb/_processed_/0/1/csm_keb-control-automation-c6-safety_69cab6f7c3.png" alt="...">
+                    <img src="{{ asset('public/img/company/slider/csm_keb-drives-s6-group-1920_3f1be80033.png') }}" alt="...">
                 </div>
                 <div class="w-100">
                     <!-- Image -->
-                    <img src="https://www.drivesapplication.com/img/bg-header-3.jpg" class="img-fluid w-100" alt="...">
+                    <img src="{{ asset('public/img/company/slider/img_dr_S6_02-04-a-1920.png') }}" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="w-100">
+                    <!-- Image -->
+                    <img src="{{ asset('public/img/company/slider/keb-drives_6p19-dl4-brusatori-hmi-7zol-combistop38-1920.png') }}" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="w-100">
+                    <!-- Image -->
+                    <img src="{{ asset('public/img/company/slider/keb-drives-f5-group-d-u-1920.png') }}" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="w-100">
+                    <!-- Image -->
+                    <img src="{{ asset('public/img/company/slider/keb-drives-f6-02-09-1920.png') }}" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="w-100">
+                    <!-- Image -->
+                    <img src="{{ asset('public/img/company/slider/keb-drives-g6-e.png') }}" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="w-100">
+                    <!-- Image -->
+                    <img src="{{ asset('public/img/company/slider/keb-emobility-t6apd-modul-c.jpg') }}" class="img-fluid w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -33,7 +53,7 @@
             <h2 class="fw-bold">
                 Why Indiana Drives & Automation?
             </h2>
-            <p>
+            <p class="text-center">
                 At Indiana Drives & Automation, we are not just a service provider; we are your partner in progress. Join us in our journey towards sustainable growth and excellence.
             </p>
         </div>
@@ -48,7 +68,7 @@
                     1
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Industry Expertise
                     </h4>
                     <!-- Text -->
@@ -67,7 +87,7 @@
                     2
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Teamwork
                     </h4>
                     <!-- Text -->
@@ -86,7 +106,7 @@
                     3
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Flexibility
                     </h4>
                     <!-- Text -->
@@ -105,7 +125,7 @@
                     4
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Acceptability
                     </h4>
                     <!-- Text -->
@@ -124,7 +144,7 @@
                     5
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Knowledge
                     </h4>
                     <!-- Text -->
@@ -143,7 +163,7 @@
                     6
                     </span>
                     <!-- Heading -->
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-center">
                         Quality
                     </h4>
                     <!-- Text -->
@@ -165,7 +185,7 @@
             <h2 class="fw-bold">
                 Our Services
             </h2>
-            <p>
+            <p class="text-center">
                 At Indiana Drives & Automation., we are offer following services.
             </p>
         </div>
@@ -289,7 +309,7 @@
                                 <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/phase-motion.png") }}" alt="Phase Motion">
                             </div>
                             <div class="item">
-                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/realland-servo.png") }}" alt="Realland Servo">
+                                <img src="{{ asset("public/img/company/AC-Drive-Servo-Drives-and-Servo-Motos/realland-Servo.png") }}" alt="Realland Servo">
                             </div>
                         </div>
                     </div>
@@ -309,7 +329,7 @@
             <h2 class="fw-bold">
                 Our Products
             </h2>
-            <p>
+            <p class="text-center">
                 At Indiana Drives & Automation., we are offer following products.
             </p>
         </div>
@@ -325,11 +345,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     General Purpose AC Drives
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     BL5X AC VARIABLE FREQUENCY DRIVES
                                 </p>
                             </div>
@@ -348,11 +368,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make F5 Application/ Servo Drives
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     F5-Multi Drives (Rating upto 900kw)
                                 </p>
                             </div>
@@ -371,11 +391,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Advance Smart Servo Drives S6/F6
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     KEB COMBIVERT S6 / F6 Intelligent Servo Drives
                                 </p>
                             </div>
@@ -394,11 +414,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Modular Drives for Multi Axis Servo Control:H6 (MultiAxis Drives)
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     The modular drive technology: KEB COMBIVERT H6
                                 </p>
                             </div>
@@ -417,11 +437,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB F6K Series Servo Drive
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     KEB COMBIVERT F6-K - Power Range
                                 </p>
                             </div>
@@ -440,11 +460,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB P6 Pitch Control Drive
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     Pitch and Yaw Drives for Wind Turbine Generator
                                 </p>
                             </div>
@@ -463,11 +483,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     KEB Make Smart C6
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     Programmable Multi Axis Controller
                                 </p>
                             </div>
@@ -486,11 +506,11 @@
                             <!-- Text -->
                             <div class="me-auto">
                                 <!-- Heading -->
-                                <p class="fw-bold mb-1">
+                                <p class="p-header fw-bold mb-1">
                                     Synchronous AC Servo Motors
                                 </p>
                                 <!-- Text -->
-                                <p class="fs-sm text-body-secondary mb-0">
+                                <p class="p-content fs-sm text-body-secondary mb-0">
                                     For cyclic applications demanding accurate positioning
                                 </p>
                             </div>
@@ -514,7 +534,7 @@
                     The best companies in the world.
                 </h2>
                 <!-- Text -->
-                <p class="fs-lg text-body-secondary mb-7 mb-md-9">
+                <p class="text-center fs-lg text-body-secondary mb-7 mb-md-9">
                     Indiana Drives & Automation worked with some of the greatest companies in the world.
                 </p>
             </div>

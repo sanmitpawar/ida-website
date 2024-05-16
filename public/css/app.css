@@ -17,6 +17,12 @@ a{
     padding: .3rem;
 }
 
+.navbar .brand-company-name{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
 .home-slider .w-100{
     border-radius: 15px;
 }
@@ -41,7 +47,11 @@ a{
 }
 
 .why-indiana-section .card{
-    height: 15rem;
+    height: 17rem;
+}
+
+.why-indiana-section .card-body p{
+    font-size: 16px;
 }
 
 .services-section .card{
@@ -50,6 +60,16 @@ a{
 
 .products-section .card{
     height: 12rem;
+}
+
+.products-section .card-body .p-header{
+    font-size: 16px;
+    text-align: center;
+}
+
+.products-section .card-body .p-content{
+    font-size: 15px;
+    margin-top: 1rem;
 }
 
 
@@ -78,6 +98,12 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar-brand-img{
+        max-height: 2.5rem;
+    }
+    .navbar .brand-company-name{
+        font-size: 11px;
+    }
     .services-owl-carousel{
         padding-top: 2rem;
     }

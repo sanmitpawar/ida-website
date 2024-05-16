@@ -4,6 +4,7 @@
         <!-- Brand -->
         <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('public/img/company/logo.png') }}" class="navbar-brand-img" alt="...">
+        <span class="brand-company-name">Indiana Drives & Automation</span>
         </a>
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +37,7 @@
                 @else
                 <li class="nav-item">
                     <a class="nav-link" id="navbarAccount" href="{{ url('/')."#services" }}" data-scroll='{"offset": 0}'>
-                    services
+                    Services
                     </a>
                 </li>
                 @endif
