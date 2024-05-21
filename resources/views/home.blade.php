@@ -541,89 +541,89 @@
         </div>
         <!-- / .row -->
         <div class="row justify-content-center">
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Hindalco_Logo.svg/1200px-Hindalco_Logo.svg.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/1.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kellogg%27s-Logo.svg/2560px-Kellogg%27s-Logo.svg.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/2.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d9/AsianHeartInstitute.jpg">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/3.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://dyimg77.exportersindia.com/company_logo/1024921.jpg">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/4.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://urbanelectricpower.com/wp-content/uploads/2020/08/Godrej-Logo.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/5.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://www.sarvottampolymers.com/assets/front/images/logo.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/6.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/sv5tMWt/download.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/7.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/xJRTQ5f/1651510667447.jpg">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/8.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://www.unominda.com/images/logo.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/9.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://apextechnoplast.com/img/logo/logo1.jpg">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/10.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/hCfyMRq/download.jpg">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/11.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/T4b7bYx/abc.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/12.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/m0hkDs1/sterimax.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/13.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://johncockerill.com/wp-content/uploads/2022/01/cockerill-logo.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/14.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://image.pitchbook.com/XiuHA1rqripBVIDUmiSz8KFOZ1P1669472788817_200x200">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/15.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://acmemachinery.co.in/img/acme-logo.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/16.png') }}" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="img-fluid mb-6 text-center">
-                    <img src="https://i.ibb.co/JnkFY4P/download-1.png">
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                <div class="mb-6 text-center">
+                    <img src="{{ asset('public/img/company/company-logo/17.png') }}" class="img-fluid" />
                 </div>
             </div>
         </div>
